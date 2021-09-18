@@ -1,5 +1,5 @@
 # futu-opend-docker
-Start FutuOpenD with docker.
+Start FutuOpenD as daemon with docker.
 
 ## Usage
 
