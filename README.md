@@ -26,14 +26,21 @@ Start FutuOpenD and Verify with sms
 ```
 ./verify-with-sms.sh
 ```
+You should see something like
+>Need a phone verification code\
+>req_phone_verify_code\
+>Requesting a phone verification code\
+>Request a phone verification code successfully\
+>Command tips: input_phone_verify_code -code=123456\
+> &gt;&gt;&gt;
 
-You should receive a verification code on the phone, type
-> input_phone_verify_code -code=YOUR_VERIFICATION_CODE
+You should receive a verification code on the phone, enter the code
+> &gt;&gt;&gt;input_phone_verify_code -code=YOUR_VERIFICATION_CODE
 
 and press enter, if there is no error, type 
 > exit
 
-to exit, since we would like the FutuOpenD to run as a daemon.
+to exit, since we would like to run FutuOpenD as a daemon.
 
 Finally, Start FutuOpenD as a daemon and exit the container.
 ```
