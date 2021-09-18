@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  futu-opend:
+    image: futu-opend
+    build: .
+    network_mode: "host"
+    container_name: futu-opend
+    environment: 
+      - LOGIN_ACCOUNT=$LOGIN_ACCOUNT
+      - LOGIN_PWD_MD5=$LOGIN_PWD_MD5
+    command: tail -f /dev/null
