@@ -8,4 +8,4 @@ services:
     environment: 
       - LOGIN_ACCOUNT=$LOGIN_ACCOUNT
       - LOGIN_PWD_MD5=$LOGIN_PWD_MD5
-    command: tail -f /dev/null
+    command: ./FutuOpenD -login_account=${LOGIN_ACCOUNT} -login_pwd_md5=${LOGIN_PWD_MD5}
