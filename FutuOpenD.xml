@@ -23,7 +23,7 @@
 	<!-- Advanced parameters -->
 		<!-- FutuOpenD日志等级，no, debug, info, warning, error, fatal --> 
 		<!-- FutuOpenD log level: no, debug, info, warning, error, fatal --> 
-		<log_level>info</log_level>
+		<log_level>error</log_level>
 		<!-- API推送协议格式，0：pb, 1：json -->
 		<!-- API push protocol format. 0: pb, 1: json -->
 		<push_proto_type>0</push_proto_type>
